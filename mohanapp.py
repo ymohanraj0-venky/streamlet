@@ -18,7 +18,7 @@ address = st.text_area("Address", "123, Main Street, City, Country")
 
 # Section: Education
 st.header("🎓 Education")
-education = st.selectbox("Educational Background", "B.Sc in Computer Science","B.com","Bca")
+education = st.text_area("Educational Background","Bca")
 
 # Section: Skills
 st.header("💡 Skills")
