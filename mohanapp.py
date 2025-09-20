@@ -14,7 +14,7 @@ education=st.text_area("Education Background","B.sc in Computer")
 st.header("Skills")
 skills=st.multiselect("Select Skill",
                       ["Python", "Machine learning","Data Analysis","Web Development","Communication"],
-                                      default=["Select your skills"])
+                                      default=["python"])
 st.header("📝 Biodata Summary")
 if st.button("Generate Biodata"):
     st.subheader("Here’s Your Biodata:")
