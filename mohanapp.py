@@ -18,7 +18,7 @@ skills=st.multiselect("Select Skill",
 st.header("Biodata Summary")
 if st.button("Generate Biodata"):
    st.subheader("Here's your Biodata:")
-  st.write(f"**Name:** {name}"):
+  st.write(f"**Name:** {name}")
   st.write(f"**Age:** {age}")
   st.write(f"**Gender:** {gender}")
   st.write(f"**Data of Birth:** {dob}") 
