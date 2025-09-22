@@ -10,7 +10,7 @@ age = st.number_input("Age", min_value=1, max_value=100, value=25)
 gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 dob = st.date_input("Date of Birth")
 # Minimum age = 10 years
-max_date = today - timedelta(days=365*10)
+max_date = timedelta(days=365*10)
 
 # Date of Birth (Calendar with restriction)
 dob = st.date_input(
