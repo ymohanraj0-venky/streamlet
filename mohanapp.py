@@ -11,13 +11,7 @@ gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 dob = st.date_input("Date of Birth")
 today = date.today()
 # Minimum age = 10 years
-max_date = today - timedelta(days=365 * 10)
-
-# Biodata fields
-name = st.text_input("Full Name")
-gender = st.selectbox("Gender", ["Male", "Female", "Other"])
-email = st.text_input("Email")
-phone = st.text_input("Phone Number")
+max_date = today - timedelta(days=365*10)
 
 # Date of Birth (Calendar with restriction)
 dob = st.date_input(
