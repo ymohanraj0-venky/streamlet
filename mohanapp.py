@@ -1,5 +1,5 @@
 import streamlit as st
-import datetime as dt
+import datetime 
 
 # Page title
 st.title("📄 My Biodata")
