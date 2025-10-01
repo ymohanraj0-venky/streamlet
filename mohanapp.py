@@ -14,11 +14,10 @@ dob = st.date_input("Date of Birth")
 # Minimum age = 10 years
 max_date = timedelta(days=365*10)
 
-# Date of Birth (Calendar with restriction)
-dob = st.date_input(
-    "Date of Birth (Must be 10+ years old)",
-    max_value=max_date
-)
+dob=st.date_input("pick a date",
+                  min_value=datetime.date(1900,1,1),
+                  max_value+datetime.date.today()
+                 )
 
 # Section: Contact Info
 st.header("📞 Contact Information")
